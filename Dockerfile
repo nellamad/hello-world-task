@@ -1,4 +1,4 @@
 FROM hello-world
 
-RUN stat /var/status
-RUN touch /var/status/kkk
+RUN /usr/bin/stat /var/status
+RUN /usr/bin/touch /var/status/kkk
