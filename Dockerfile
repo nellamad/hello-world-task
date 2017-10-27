@@ -1,1 +1,1 @@
-from: hello-world
+FROM hello-world
