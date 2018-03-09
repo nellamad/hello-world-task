@@ -2,6 +2,6 @@
 
 while true; do
   echo "Hello, World!"
-  date >> /var/log/date
+  date | tee -a /var/log/date
   sleep 10
 done
