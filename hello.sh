@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "Hello, World!"
+echo "<h1 style="color:green">Hello, World!</h1>"
 sleep 60
 
