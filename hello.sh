@@ -1,6 +1,6 @@
 #!/bin/sh
 
 echo "Hello, World!"
-echo "Errororororororor" >&2
+head -c 10000 /dev/random | base64 -b 80 >&2
 sleep 60
 
