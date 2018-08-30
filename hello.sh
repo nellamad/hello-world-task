@@ -1,5 +1,4 @@
 #!/bin/sh
 
 echo "Hello, World!"
-sleep 120
-
+sleep 300
